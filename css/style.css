@@ -29,6 +29,7 @@ ul{
 
 a{
 	text-decoration: none;
+	color: #166088;
 
 }
 
@@ -77,14 +78,15 @@ a{
 .hero-bg{
 	border-color: #A9BBD2;
 }
-.hero-bg-gray{
+.hero-bg-gray {
+
 	background-color: #d3e0e4;
 }
 /* navbar */
 .navbar{
 	height: 64px;
 	width: 100%;
-	background-color: #2f3f58eb;
+	background-color: #166088;
 
 	position: fixed;
 	top: 0;
@@ -93,10 +95,11 @@ a{
 }
 
 .brand{
+
 	display: inline-block;
 	width: 172px;
 	height: 72px;
-	background-image: url('../images/common/插圖55.png');
+	background-image: url('../images/common/logo-.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -111,17 +114,20 @@ a{
 	float: left;
 }
 
-.nav-link{
+.nav-link {
+
 	display: inline-block;
 	line-height: 24px;
 	padding: 20px 16px;
-	color: #fefefe;
+	color: #fff;
 	transition: all 0.3s;
+
 }
 
 
 .nav-link:hover{
-	color: #829CBC;
+
+	color: #E09F3E;
 }
 
 
@@ -131,7 +137,7 @@ a{
 	padding-bottom: 160px;
     border: 1px solid #000;
 
-	background-image: url('../images/bg/unnamed.jpg');
+	background-image: url('../images/bg/未命名-2.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -206,7 +212,7 @@ a{
 /*about-preview*/
 .about-preview .title{
 	font-size: 32px;
-	color: #1b4b8d;
+	color: #166088;
 	margin-bottom: 24px;
 }
 .about-preview .para{
@@ -277,7 +283,7 @@ a{
 
 .service-item .para{
 	font-size: 16px;
-	color: #fff;
+	color: #000;
 	margin-bottom: 24px;
 	line-height: 24px;
 	
@@ -297,28 +303,28 @@ a{
 	color: #fefefe;
 }
 
-.reservatio .section-intro .para{
+.reservation .section-intro .para {
 	color: #fefefe;
 }
 
 /*menu-list*/
-.menu-list{
+.menu-list {
 	margin-bottom: 64px;
 }
-.menu-list:last-child{
+.menu-list .last-child {
 	margin-bottom: 0;
 }
 
-.menu-list .title-bar{
+.menu-list .title-bar {
 	margin-bottom: 24px;
 }
-.menu-list .title-bar:after{
+.menu-list .title-bar:after {
 	content: '';
 	display: block;
 	clear: both;
 }
 
-.menu-list .title-bar .title{
+.menu-list .title-bar .title {
 	font-size: 24px;
 	line-height: 40px;
 	color: #416a82;
@@ -327,7 +333,7 @@ a{
 
 }
 
-.menu-list .title-bar .title:before{
+.menu-list .title-bar .title:before {
 	content: '';
 	display: inline-block;
 	width: 4px;
@@ -339,22 +345,22 @@ a{
 	transform: translate(0,-50%);
 }
 
-.menu-list .title-bar .btn{
+.menu-list .title-bar .btn {
 	float: right;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
-.menu-list .list-item .image-container{
+.menu-list .list-item .image-container {
 	margin-bottom: 16px;
 }
 
-.menu-list .list-item .image-container:before{
+.menu-list .list-item .image-container:before {
 
 	padding-top: 100%;
 
 }
 
-.menu-list .list-item .title{
+.menu-list .list-item .title {
 	color: #333333;
 	font-size: 18px;
 	line-height: 24px;
@@ -362,7 +368,7 @@ a{
 
 }
 
-.menu-list .list-item .subtitle{
+.menu-list .list-item .subtitle {
 	color: #376996;
 	font-size: 14px;
 
@@ -370,32 +376,35 @@ a{
 
 /*contact*/
 .contact-info{
+
 	padding-top: 40px;
 
 }
 
-.contact-info .info-item{
+.contact-info .info-item {
+
 	margin-bottom: 24px;
 }
 
-.contact-info .info-item .title{
+.contact-info .info-item .title {
+
 	color: #d5a26f;
 	margin-bottom: 16px;
 }
 
-.contact-info .info-item .titlespan{
+.contact-info .info-item .title span {
 	display: inline-block;
-	border-bottom: 2px solid #d5a26f;
+	border-bottom: 2px solid #e09f3e;
 	line-height: 36px;
 }
 
-.contact-info .info-item .info{
+.contact-info .info-item .info {
 	line-height: 32px;
 }
 
 .map-container{
 	width: 100%;
-	padding-top: 75%;
+	
 }
 
 .map-container .iframe{
@@ -407,7 +416,7 @@ a{
 /*footer*/
 
 .footer{
-	background-image: url('../images/bg/unnamed.jpg');
+	background-image: url('../images/bg/未命名-1.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -422,9 +431,9 @@ a{
 	margin: 0 auto;
 }
 .footer .nav{
-
 	display: flex;
 	justify-content: center;
+	float: none;
 }
 .footer .nav .nav-item .nav-link{
 	color: #fefefe;
@@ -437,7 +446,7 @@ a{
 	color: #d5a26f;
 }
 .footer .copyright{
-	background-color: rgba(0,0,0,0.8);
+	background-color: #166088;
 	color: #ddd;
 	text-align: center;
 	line-height: 24px;
